@@ -11,8 +11,8 @@ spec:
       github:
         owner: globart
         repo: gitops-cert-level-3-examples
-        labels:
-        - preview-ready
+        filters:
+        - labelMatch: preview
       requeueAfterSeconds: 180
   template:
     metadata:
